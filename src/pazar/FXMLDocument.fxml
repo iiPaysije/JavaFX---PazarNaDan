@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="Pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="910.0" prefWidth="744.0" style="-fx-background-color: #999999;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pazar.FXMLDocumentController">
+   <children>
+      <Label fx:id="labelTitle" alignment="CENTER" layoutX="107.0" layoutY="32.0" prefHeight="56.0" prefWidth="296.0" text="Pazar za dan" textAlignment="CENTER">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelPazar" contentDisplay="CENTER" layoutX="26.0" layoutY="755.0" prefHeight="34.0" prefWidth="181.0" text="Ukupan pazar:" textAlignment="JUSTIFY">
+         <font>
+            <Font name="Arial" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelInstruction" alignment="CENTER" layoutX="14.0" layoutY="118.0" prefHeight="30.0" prefWidth="466.0" text="Unesite broj svake novcanice i kovanice:" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="img10" fitHeight="62.0" fitWidth="149.0" layoutX="29.0" layoutY="502.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../slike/img10.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="input10" layoutX="179.0" layoutY="521.0" text="0" />
+      <ImageView fx:id="img20" fitHeight="62.0" fitWidth="149.0" layoutX="29.0" layoutY="578.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../slike/img20.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="input20" layoutX="179.0" layoutY="597.0" text="0" />
+      <ImageView fx:id="img50" fitHeight="62.0" fitWidth="149.0" layoutX="26.0" layoutY="646.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../slike/img50.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="input50" layoutX="179.0" layoutY="665.0" text="0" />
+      <ImageView fx:id="img100" fitHeight="62.0" fitWidth="135.0" layoutX="382.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../slike/img100.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="input100" layoutX="533.0" layoutY="183.0" text="0" />
+      <ImageView fx:id="img200" fitHeight="62.0" fitWidth="135.0" layoutX="381.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../slike/img200.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="input200" layoutX="535.0" layoutY="262.0" text="0" />
+      <ImageView fx:id="img500" fitHeight="62.0" fitWidth="149.0" layoutX="383.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../slike/img500.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="input500" layoutX="535.0" layoutY="335.0" text="0" />
+      <ImageView fx:id="img1000" fitHeight="62.0" fitWidth="149.0" layoutX="380.0" layoutY="465.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../slike/img2000.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="input1000" layoutX="535.0" layoutY="409.0" text="0" />
+      <ImageView fx:id="img2000" fitHeight="62.0" fitWidth="149.0" layoutX="382.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../slike/img1000.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="input2000" layoutX="535.0" layoutY="483.0" text="0" />
+      <ImageView fx:id="img5000" fitHeight="62.0" fitWidth="149.0" layoutX="380.0" layoutY="543.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../slike/img5000.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="input5000" layoutX="532.0" layoutY="562.0" text="0" />
+      <ImageView fx:id="imgKov1" fitHeight="62.0" fitWidth="83.0" layoutX="31.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../slike/imgKov1.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="inputKov1" layoutX="100.0" layoutY="183.0" text="0" />
+      <ImageView fx:id="imgKov2" fitHeight="62.0" fitWidth="83.0" layoutX="31.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../slike/imgKov2.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="inputKov2" layoutX="100.0" layoutY="245.0" text="0" />
+      <ImageView fx:id="imgKov5" fitHeight="62.0" fitWidth="83.0" layoutX="31.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../slike/imgKov5.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="inputKov5" layoutX="103.0" layoutY="307.0" text="0" />
+      <ImageView fx:id="imgKov10" fitHeight="62.0" fitWidth="83.0" layoutX="31.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../slike/imgKov10.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="inputKov10" layoutX="103.0" layoutY="369.0" text="0" />
+      <ImageView fx:id="imgKov20" fitHeight="62.0" fitWidth="83.0" layoutX="34.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../slike/imgKov20.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="inputKov20" layoutX="103.0" layoutY="443.0" text="0" />
+      <TextField fx:id="inputKasa" layoutX="207.0" layoutY="794.0" prefHeight="24.0" prefWidth="161.0" text="0" />
+      <Label fx:id="labelKasa" contentDisplay="CENTER" layoutX="26.0" layoutY="789.0" prefHeight="34.0" prefWidth="181.0" text="Ukupno u kasi" textAlignment="JUSTIFY">
+         <font>
+            <Font name="Arial" size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnRacunaj" layoutX="512.0" layoutY="736.0" mnemonicParsing="false" onAction="#Izracunaj" prefHeight="48.0" prefWidth="129.0" text="Izracunaj" />
+      <DatePicker fx:id="datum" layoutX="403.0" layoutY="48.0" onAction="#handleButtonAction" />
+      <Label fx:id="labelIzracunatPazar" contentDisplay="CENTER" layoutX="207.0" layoutY="755.0" prefHeight="34.0" prefWidth="181.0" textAlignment="JUSTIFY">
+         <font>
+            <Font name="Arial" size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnUporedi" layoutX="512.0" layoutY="794.0" mnemonicParsing="false" onAction="#Uporedi" prefHeight="48.0" prefWidth="129.0" text="Uporedi sa Kasom" />
+   </children>
+</Pane>
