@@ -1,4 +1,4 @@
-## Jednostavna aplikacija za racunanje pazara
+## Jednostavna  Java aplikacija za racunanje pazara
 
 1. izabere se datum
 2. u polje pored novcanice/kovanice unese se njihov broj
